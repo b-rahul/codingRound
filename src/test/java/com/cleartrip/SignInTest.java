@@ -15,6 +15,7 @@ public class SignInTest extends BaseTest {
 
         setDriverPath();
 
+        
         driver.get("https://www.cleartrip.com/");
         waitFor(2000);
 

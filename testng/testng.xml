@@ -8,7 +8,6 @@
     -->
 
     <test name="Cleartip Selenium Tests">
-        <parameter name="runtype" value="local"/>
         <classes>
             <class name="com.cleartrip.booking.flight.FlightBookingTest"/>
             <class name="com.cleartrip.booking.hotel.HotelBookingTest"/>

@@ -1,5 +1,6 @@
-package com.cleartrip;
+package com.cleartrip.login;
 
+import com.cleartrip.test_conf.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +16,7 @@ public class SignInTest extends BaseTest {
 
         setDriverPath();
 
-        
+
         driver.get("https://www.cleartrip.com/");
         waitFor(2000);
 

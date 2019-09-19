@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Tests">
+    <!--
+    <listeners>
+        <listener class-name="Custom Listener"/>
+    </listeners>
+    -->
+
+    <test name="Cleartip Selenium Tests">
+        <parameter name="runtype" value="local"/>
+        <classes>
+            <class name="com.cleartrip.booking.flight.FlightBookingTest"/>
+            <class name="com.cleartrip.booking.hotel.HotelBookingTest"/>
+        </classes>
+    </test>
+
+</suite>
